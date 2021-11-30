@@ -1,3 +1,28 @@
+
+# 前島がやった記録
+- heroku はプライベートアカウントに作成しておいた課金はしていないので、放置しておいてOK
+- なんか slack app から heroku へのリクエストが数分遅延したり、失敗したりすることが多い
+    - 感覚的には、10%ぐらいしか成功しない
+    - なので、以下の質問を qiita でしようかと思ったが、 slack app のログを見ても改善できる気があまりしないので、やめておいた
+
+```
+非常に良い記事でした。ありがとうございます！
+導入してみました。
+
+slack app のソースコードに馴染みがないので、いまいち改善方法がわからなかったので、質問させて下さい。
+
+翻訳が 10-20回に1回ほどしか成功せず、何度も try again をする必要があります。
+heroku で Dynos を Porfessional にしてもそのような状況だったので、改善できるポイントが見つからずギブアップしてしまいました。
+
+heroku の log をみている限り、 Slack 側からのリクエストが 10-20回に1回ほどしか到達していないようでした。
+
+
+Slack app のリクエストの送信ログなどをみる方法は、ありますでしょうか？
+
+まあ、あるんだけど、今は権限がない
+https://slack.com/help/articles/360002084807-View-Access-Logs-for-your-workspace
+```
+
 ## DeepL App for Slack
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/seratch/deepl-for-slack/tree/master)
